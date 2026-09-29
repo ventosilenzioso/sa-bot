@@ -4,9 +4,6 @@ Standalone SA-MP load-testing bot tool. It connects N bots to any SA-MP
 0.3.7 server, keeps them alive with periodic chat, and reports connect/spawn
 counts and a final summary.
 
-Derived from the proven soak-test harness in the `gosamp` project, simplified
-into a single command-line tool.
-
 ## Build & run
 
 ```bash
