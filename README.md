@@ -66,9 +66,3 @@ Each bot runs the full client lifecycle in its own goroutine:
 
 Bots use unique nicknames `Bot000`, `Bot001`, ... and disconnect cleanly when
 the duration ends.
-
-## Scope
-
-This tool is for **load testing only**. It sends only the packets a normal
-client sends (handshake, class/spawn, occasional chat) at a normal rate. It
-performs no flooding beyond that, no exploits, and no protocol abuse.
