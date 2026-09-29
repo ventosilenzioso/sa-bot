@@ -1,0 +1,17 @@
+# Build output
+/sampbot
+/sampbot.exe
+
+# Never commit credentials
+*.key
+/gh.key
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Go
+*.test
+coverage.out
